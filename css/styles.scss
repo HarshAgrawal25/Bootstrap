@@ -53,12 +53,13 @@ body{
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
-
+// class
 .carousel {
     background:$background-dark;
-
+    // class
     .carousel-item {
         height: $carousel-item-height;
+        // tag
         img {
             position: absolute;
             top: 0;
@@ -67,10 +68,26 @@ body{
         }
     }
 }
-
+// id
 #carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+.modal-content{ 
+    .modal-header {
+        background-color: $background-dark;
+            .modal-title{
+                color:#ffffff;
+            }
+            button {
+                color:$background-pale;
+            }
+
+    }
+
+    .modal-body {
+        background-color:$background-pale;
+    }
 }
